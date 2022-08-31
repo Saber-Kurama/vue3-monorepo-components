@@ -43,7 +43,7 @@ export default defineConfig(async () => {
       minify: false,
       brotliSize: false,
       rollupOptions: {
-        input: ["src/index.ts"],
+        // input: ["src/index.ts"],
         external,
         // output: [
         //   {
@@ -76,9 +76,10 @@ export default defineConfig(async () => {
       vue(),
       vueJsx(),
       dts({
+        // entryRoot: "src/index.ts",
         exclude: ["node_modules"],
         outputDir: ["dist"],
-        // compilerOptions: { sourceMap },
+        // // compilerOptions: { sourceMap },
         copyDtsFiles: false,
       }),
     ],

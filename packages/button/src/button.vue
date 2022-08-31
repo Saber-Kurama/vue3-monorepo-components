@@ -1,7 +1,7 @@
 <!--
  * @Author: saber
  * @Date: 2022-03-01 15:58:09
- * @LastEditTime: 2022-08-30 21:58:25
+ * @LastEditTime: 2022-08-31 00:10:52
  * @LastEditors: saber
  * @Description: 
 -->
@@ -20,9 +20,9 @@ import type { TableColumnData as TableColumnType } from "@arco-design/web-vue/es
 import type { PaginationProps } from "@arco-design/web-vue/es/pagination/interface";
 import { RequestFn } from "./types";
 
-export default defineComponent({
+export default {
   name: "AQueryTable",
-});
+};
 </script>
 <script lang="ts" setup>
 // todo: any
